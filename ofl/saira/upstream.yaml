@@ -1,0 +1,168 @@
+# Please edit this upstream configuration for the family accordingly.
+# This is a yaml formatted file.
+# An "#" (number sign) denotes a comment.
+# For more help see the docs at:
+# https://github.com/googlefonts/gf-docs/tree/master/METADATA
+
+# Full family name, with initial upper cases and spaces
+name: Saira
+
+# In most cases this should be based on the GitHub https repo url:
+# this https://github.com/{owner}/{repo}.git
+repository_url: https://github.com/Omnibus-Type/Saira.git
+
+# The branch name used to update google fonts. e.g.: master
+branch: master
+
+# Choose one of: DISPLAY, SERIF, SANS_SERIF, SANS_SERIF, HANDWRITING, MONOSPACE
+category: SANS_SERIF
+
+# Full name of the type designer(s) or foundry who designed the fonts.
+designer: Omnibus-Type
+
+
+# Dictionary mapping of SOURCE file names to TARGET file names. Where
+# SOURCE is the file path in the upstream repo and TARGET is the file
+# path in the google fonts family directory.
+# Accepted and expected files:
+#     - The font files, ending with ".ttf"
+#     - In case of a variable font, static instances in: static/Family-instance.ttf
+#     - DESCRIPTION.en_us.html
+#     - OFL.txt, the license.  Less likely UFL.txt and LICENSE.txt.
+#     - (optional) FONTLOG.txt
+files:
+  # These are some examples as comments, please modify, add, delete as necessary:
+  Saira/OFL.txt: OFL.txt
+  Saira/fonts/gx/Saira-Italic[wdth,wght].ttf: Saira-Italic[wdth,wght].ttf
+  Saira/fonts/gx/Saira[wdth,wght].ttf: Saira[wdth,wght].ttf
+  # See https://github.com/googlefonts/gf-docs/issues/73
+  # Although we have all the instances available, we only use the 18
+  # weight instances for regular width plus italic now.
+  # However, I leave the rest in here as comments, also because the
+  # upstream.yaml files are new and it may be useful as a reference.
+  Saira/fonts/ttf/Saira-Thin.ttf: static/Saira-Thin.ttf
+  Saira/fonts/ttf/Saira-ExtraLight.ttf: static/Saira-ExtraLight.ttf
+  Saira/fonts/ttf/Saira-Light.ttf: static/Saira-Light.ttf
+  Saira/fonts/ttf/Saira-Regular.ttf: static/Saira-Regular.ttf
+  Saira/fonts/ttf/Saira-Medium.ttf: static/Saira-Medium.ttf
+  Saira/fonts/ttf/Saira-SemiBold.ttf: static/Saira-SemiBold.ttf
+  Saira/fonts/ttf/Saira-Bold.ttf: static/Saira-Bold.ttf
+  Saira/fonts/ttf/Saira-ExtraBold.ttf: static/Saira-ExtraBold.ttf
+  Saira/fonts/ttf/Saira-Black.ttf: static/Saira-Black.ttf
+  Saira/fonts/ttf/Saira-ThinItalic.ttf: static/Saira-ThinItalic.ttf
+  Saira/fonts/ttf/Saira-ExtraLightItalic.ttf: static/Saira-ExtraLightItalic.ttf
+  Saira/fonts/ttf/Saira-LightItalic.ttf: static/Saira-LightItalic.ttf
+  Saira/fonts/ttf/Saira-Italic.ttf: static/Saira-Italic.ttf
+  Saira/fonts/ttf/Saira-MediumItalic.ttf: static/Saira-MediumItalic.ttf
+  Saira/fonts/ttf/Saira-SemiBoldItalic.ttf: static/Saira-SemiBoldItalic.ttf
+  Saira/fonts/ttf/Saira-BoldItalic.ttf: static/Saira-BoldItalic.ttf
+  Saira/fonts/ttf/Saira-ExtraBoldItalic.ttf: static/Saira-ExtraBoldItalic.ttf
+  Saira/fonts/ttf/Saira-BlackItalic.ttf: static/Saira-BlackItalic.ttf
+  # SairaUltraCondensed/fonts/ttf/SairaUltraCondensed-Thin.ttf: static/Saira-UltraCondensedThin.ttf
+  # SairaUltraCondensed/fonts/ttf/SairaUltraCondensed-ExtraLight.ttf: static/Saira-UltraCondensedExtraLight.ttf
+  # SairaUltraCondensed/fonts/ttf/SairaUltraCondensed-Light.ttf: static/Saira-UltraCondensedLight.ttf
+  # SairaUltraCondensed/fonts/ttf/SairaUltraCondensed-Regular.ttf: static/Saira-UltraCondensedRegular.ttf
+  # SairaUltraCondensed/fonts/ttf/SairaUltraCondensed-Medium.ttf: static/Saira-UltraCondensedMedium.ttf
+  # SairaUltraCondensed/fonts/ttf/SairaUltraCondensed-SemiBold.ttf: static/Saira-UltraCondensedSemiBold.ttf
+  # SairaUltraCondensed/fonts/ttf/SairaUltraCondensed-Bold.ttf: static/Saira-UltraCondensedBold.ttf
+  # SairaUltraCondensed/fonts/ttf/SairaUltraCondensed-ExtraBold.ttf: static/Saira-UltraCondensedExtraBold.ttf
+  # SairaUltraCondensed/fonts/ttf/SairaUltraCondensed-Black.ttf: static/Saira-UltraCondensedBlack.ttf
+  # SairaExtraCondensed/fonts/ttf/SairaExtraCondensed-Thin.ttf: static/Saira-ExtraCondensedThin.ttf
+  # SairaExtraCondensed/fonts/ttf/SairaExtraCondensed-ExtraLight.ttf: static/Saira-ExtraCondensedExtraLight.ttf
+  # SairaExtraCondensed/fonts/ttf/SairaExtraCondensed-Light.ttf: static/Saira-ExtraCondensedLight.ttf
+  # SairaExtraCondensed/fonts/ttf/SairaExtraCondensed-Regular.ttf: static/Saira-ExtraCondensedRegular.ttf
+  # SairaExtraCondensed/fonts/ttf/SairaExtraCondensed-Medium.ttf: static/Saira-ExtraCondensedMedium.ttf
+  # SairaExtraCondensed/fonts/ttf/SairaExtraCondensed-SemiBold.ttf: static/Saira-ExtraCondensedSemiBold.ttf
+  # SairaExtraCondensed/fonts/ttf/SairaExtraCondensed-Bold.ttf: static/Saira-ExtraCondensedBold.ttf
+  # SairaExtraCondensed/fonts/ttf/SairaExtraCondensed-ExtraBold.ttf: static/Saira-ExtraCondensedExtraBold.ttf
+  # SairaExtraCondensed/fonts/ttf/SairaExtraCondensed-Black.ttf: static/Saira-ExtraCondensedBlack.ttf
+  # SairaCondensed/fonts/ttf/SairaCondensed-Thin.ttf: static/Saira-CondensedThin.ttf
+  # SairaCondensed/fonts/ttf/SairaCondensed-ExtraLight.ttf: static/Saira-CondensedExtraLight.ttf
+  # SairaCondensed/fonts/ttf/SairaCondensed-Light.ttf: static/Saira-CondensedLight.ttf
+  # SairaCondensed/fonts/ttf/SairaCondensed-Regular.ttf: static/Saira-CondensedRegular.ttf
+  # SairaCondensed/fonts/ttf/SairaCondensed-Medium.ttf: static/Saira-CondensedMedium.ttf
+  # SairaCondensed/fonts/ttf/SairaCondensed-SemiBold.ttf: static/Saira-CondensedSemiBold.ttf
+  # SairaCondensed/fonts/ttf/SairaCondensed-Bold.ttf: static/Saira-CondensedBold.ttf
+  # SairaCondensed/fonts/ttf/SairaCondensed-ExtraBold.ttf: static/Saira-CondensedExtraBold.ttf
+  # SairaCondensed/fonts/ttf/SairaCondensed-Black.ttf: static/Saira-CondensedBlack.ttf
+  # SairaSemiCondensed/fonts/ttf/SairaSemiCondensed-Thin.ttf: static/Saira-SemiCondensedThin.ttf
+  # SairaSemiCondensed/fonts/ttf/SairaSemiCondensed-ExtraLight.ttf: static/Saira-SemiCondensedExtraLight.ttf
+  # SairaSemiCondensed/fonts/ttf/SairaSemiCondensed-Light.ttf: static/Saira-SemiCondensedLight.ttf
+  # SairaSemiCondensed/fonts/ttf/SairaSemiCondensed-Regular.ttf: static/Saira-SemiCondensedRegular.ttf
+  # SairaSemiCondensed/fonts/ttf/SairaSemiCondensed-Medium.ttf: static/Saira-SemiCondensedMedium.ttf
+  # SairaSemiCondensed/fonts/ttf/SairaSemiCondensed-SemiBold.ttf: static/Saira-SemiCondensedSemiBold.ttf
+  # SairaSemiCondensed/fonts/ttf/SairaSemiCondensed-Bold.ttf: static/Saira-SemiCondensedBold.ttf
+  # SairaSemiCondensed/fonts/ttf/SairaSemiCondensed-ExtraBold.ttf: static/Saira-SemiCondensedExtraBold.ttf
+  # SairaSemiCondensed/fonts/ttf/SairaSemiCondensed-Black.ttf: static/Saira-SemiCondensedBlack.ttf
+  # SairaSemiExpanded/fonts/ttf/SairaSemiExpanded-Thin.ttf: static/Saira-SemiExpandedThin.ttf
+  # SairaSemiExpanded/fonts/ttf/SairaSemiExpanded-ExtraLight.ttf: static/Saira-SemiExpandedExtraLight.ttf
+  # SairaSemiExpanded/fonts/ttf/SairaSemiExpanded-Light.ttf: static/Saira-SemiExpandedLight.ttf
+  # SairaSemiExpanded/fonts/ttf/SairaSemiExpanded-Regular.ttf: static/Saira-SemiExpandedRegular.ttf
+  # SairaSemiExpanded/fonts/ttf/SairaSemiExpanded-Medium.ttf: static/Saira-SemiExpandedMedium.ttf
+  # SairaSemiExpanded/fonts/ttf/SairaSemiExpanded-SemiBold.ttf: static/Saira-SemiExpandedSemiBold.ttf
+  # SairaSemiExpanded/fonts/ttf/SairaSemiExpanded-Bold.ttf: static/Saira-SemiExpandedBold.ttf
+  # SairaSemiExpanded/fonts/ttf/SairaSemiExpanded-ExtraBold.ttf: static/Saira-SemiExpandedExtraBold.ttf
+  # SairaSemiExpanded/fonts/ttf/SairaSemiExpanded-Black.ttf: static/Saira-SemiExpandedBlack.ttf
+  # SairaExpanded/fonts/ttf/SairaExpanded-Thin.ttf: static/Saira-ExpandedThin.ttf
+  # SairaExpanded/fonts/ttf/SairaExpanded-ExtraLight.ttf: static/Saira-ExpandedExtraLight.ttf
+  # SairaExpanded/fonts/ttf/SairaExpanded-Light.ttf: static/Saira-ExpandedLight.ttf
+  # SairaExpanded/fonts/ttf/SairaExpanded-Regular.ttf: static/Saira-ExpandedRegular.ttf
+  # SairaExpanded/fonts/ttf/SairaExpanded-Medium.ttf: static/Saira-ExpandedMedium.ttf
+  # SairaExpanded/fonts/ttf/SairaExpanded-SemiBold.ttf: static/Saira-ExpandedSemiBold.ttf
+  # SairaExpanded/fonts/ttf/SairaExpanded-Bold.ttf: static/Saira-ExpandedBold.ttf
+  # SairaExpanded/fonts/ttf/SairaExpanded-ExtraBold.ttf: static/Saira-ExpandedExtraBold.ttf
+  # SairaExpanded/fonts/ttf/SairaExpanded-Black.ttf: static/Saira-ExpandedBlack.ttf
+  # SairaUltraCondensed/fonts/ttf/SairaUltraCondensed-ThinItalic.ttf: static/Saira-UltraCondensedThinItalic.ttf
+  # SairaUltraCondensed/fonts/ttf/SairaUltraCondensed-ExtraLightItalic.ttf: static/Saira-UltraCondensedExtraLightItalic.ttf
+  # SairaUltraCondensed/fonts/ttf/SairaUltraCondensed-LightItalic.ttf: static/Saira-UltraCondensedLightItalic.ttf
+  # SairaUltraCondensed/fonts/ttf/SairaUltraCondensed-Italic.ttf: static/Saira-UltraCondensedItalic.ttf
+  # SairaUltraCondensed/fonts/ttf/SairaUltraCondensed-MediumItalic.ttf: static/Saira-UltraCondensedMediumItalic.ttf
+  # SairaUltraCondensed/fonts/ttf/SairaUltraCondensed-SemiBoldItalic.ttf: static/Saira-UltraCondensedSemiBoldItalic.ttf
+  # SairaUltraCondensed/fonts/ttf/SairaUltraCondensed-BoldItalic.ttf: static/Saira-UltraCondensedBoldItalic.ttf
+  # SairaUltraCondensed/fonts/ttf/SairaUltraCondensed-ExtraBoldItalic.ttf: static/Saira-UltraCondensedExtraBoldItalic.ttf
+  # SairaUltraCondensed/fonts/ttf/SairaUltraCondensed-BlackItalic.ttf: static/Saira-UltraCondensedBlackItalic.ttf
+  # SairaExtraCondensed/fonts/ttf/SairaExtraCondensed-ThinItalic.ttf: static/Saira-ExtraCondensedThinItalic.ttf
+  # SairaExtraCondensed/fonts/ttf/SairaExtraCondensed-ExtraLightItalic.ttf: static/Saira-ExtraCondensedExtraLightItalic.ttf
+  # SairaExtraCondensed/fonts/ttf/SairaExtraCondensed-LightItalic.ttf: static/Saira-ExtraCondensedLightItalic.ttf
+  # SairaExtraCondensed/fonts/ttf/SairaExtraCondensed-Italic.ttf: static/Saira-ExtraCondensedItalic.ttf
+  # SairaExtraCondensed/fonts/ttf/SairaExtraCondensed-MediumItalic.ttf: static/Saira-ExtraCondensedMediumItalic.ttf
+  # SairaExtraCondensed/fonts/ttf/SairaExtraCondensed-SemiBoldItalic.ttf: static/Saira-ExtraCondensedSemiBoldItalic.ttf
+  # SairaExtraCondensed/fonts/ttf/SairaExtraCondensed-BoldItalic.ttf: static/Saira-ExtraCondensedBoldItalic.ttf
+  # SairaExtraCondensed/fonts/ttf/SairaExtraCondensed-ExtraBoldItalic.ttf: static/Saira-ExtraCondensedExtraBoldItalic.ttf
+  # SairaExtraCondensed/fonts/ttf/SairaExtraCondensed-BlackItalic.ttf: static/Saira-ExtraCondensedBlackItalic.ttf
+  # SairaCondensed/fonts/ttf/SairaCondensed-ThinItalic.ttf: static/Saira-CondensedThinItalic.ttf
+  # SairaCondensed/fonts/ttf/SairaCondensed-ExtraLightItalic.ttf: static/Saira-CondensedExtraLightItalic.ttf
+  # SairaCondensed/fonts/ttf/SairaCondensed-LightItalic.ttf: static/Saira-CondensedLightItalic.ttf
+  # SairaCondensed/fonts/ttf/SairaCondensed-Italic.ttf: static/Saira-CondensedItalic.ttf
+  # SairaCondensed/fonts/ttf/SairaCondensed-MediumItalic.ttf: static/Saira-CondensedMediumItalic.ttf
+  # SairaCondensed/fonts/ttf/SairaCondensed-SemiBoldItalic.ttf: static/Saira-CondensedSemiBoldItalic.ttf
+  # SairaCondensed/fonts/ttf/SairaCondensed-BoldItalic.ttf: static/Saira-CondensedBoldItalic.ttf
+  # SairaCondensed/fonts/ttf/SairaCondensed-ExtraBoldItalic.ttf: static/Saira-CondensedExtraBoldItalic.ttf
+  # SairaCondensed/fonts/ttf/SairaCondensed-BlackItalic.ttf: static/Saira-CondensedBlackItalic.ttf
+  # SairaSemiCondensed/fonts/ttf/SairaSemiCondensed-ThinItalic.ttf: static/Saira-SemiCondensedThinItalic.ttf
+  # SairaSemiCondensed/fonts/ttf/SairaSemiCondensed-ExtraLightItalic.ttf: static/Saira-SemiCondensedExtraLightItalic.ttf
+  # SairaSemiCondensed/fonts/ttf/SairaSemiCondensed-LightItalic.ttf: static/Saira-SemiCondensedLightItalic.ttf
+  # SairaSemiCondensed/fonts/ttf/SairaSemiCondensed-Italic.ttf: static/Saira-SemiCondensedItalic.ttf
+  # SairaSemiCondensed/fonts/ttf/SairaSemiCondensed-MediumItalic.ttf: static/Saira-SemiCondensedMediumItalic.ttf
+  # SairaSemiCondensed/fonts/ttf/SairaSemiCondensed-SemiBoldItalic.ttf: static/Saira-SemiCondensedSemiBoldItalic.ttf
+  # SairaSemiCondensed/fonts/ttf/SairaSemiCondensed-BoldItalic.ttf: static/Saira-SemiCondensedBoldItalic.ttf
+  # SairaSemiCondensed/fonts/ttf/SairaSemiCondensed-ExtraBoldItalic.ttf: static/Saira-SemiCondensedExtraBoldItalic.ttf
+  # SairaSemiCondensed/fonts/ttf/SairaSemiCondensed-BlackItalic.ttf: static/Saira-SemiCondensedBlackItalic.ttf
+  # SairaSemiExpanded/fonts/ttf/SairaSemiExpanded-ThinItalic.ttf: static/Saira-SemiExpandedThinItalic.ttf
+  # SairaSemiExpanded/fonts/ttf/SairaSemiExpanded-ExtraLightItalic.ttf: static/Saira-SemiExpandedExtraLightItalic.ttf
+  # SairaSemiExpanded/fonts/ttf/SairaSemiExpanded-LightItalic.ttf: static/Saira-SemiExpandedLightItalic.ttf
+  # SairaSemiExpanded/fonts/ttf/SairaSemiExpanded-Italic.ttf: static/Saira-SemiExpandedItalic.ttf
+  # SairaSemiExpanded/fonts/ttf/SairaSemiExpanded-MediumItalic.ttf: static/Saira-SemiExpandedMediumItalic.ttf
+  # SairaSemiExpanded/fonts/ttf/SairaSemiExpanded-SemiBoldItalic.ttf: static/Saira-SemiExpandedSemiBoldItalic.ttf
+  # SairaSemiExpanded/fonts/ttf/SairaSemiExpanded-BoldItalic.ttf: static/Saira-SemiExpandedBoldItalic.ttf
+  # SairaSemiExpanded/fonts/ttf/SairaSemiExpanded-ExtraBoldItalic.ttf: static/Saira-SemiExpandedExtraBoldItalic.ttf
+  # SairaSemiExpanded/fonts/ttf/SairaSemiExpanded-BlackItalic.ttf: static/Saira-SemiExpandedBlackItalic.ttf
+  # SairaExpanded/fonts/ttf/SairaExpanded-ThinItalic.ttf: static/Saira-ExpandedThinItalic.ttf
+  # SairaExpanded/fonts/ttf/SairaExpanded-ExtraLightItalic.ttf: static/Saira-ExpandedExtraLightItalic.ttf
+  # SairaExpanded/fonts/ttf/SairaExpanded-LightItalic.ttf: static/Saira-ExpandedLightItalic.ttf
+  # SairaExpanded/fonts/ttf/SairaExpanded-Italic.ttf: static/Saira-ExpandedItalic.ttf
+  # SairaExpanded/fonts/ttf/SairaExpanded-MediumItalic.ttf: static/Saira-ExpandedMediumItalic.ttf
+  # SairaExpanded/fonts/ttf/SairaExpanded-SemiBoldItalic.ttf: static/Saira-ExpandedSemiBoldItalic.ttf
+  # SairaExpanded/fonts/ttf/SairaExpanded-BoldItalic.ttf: static/Saira-ExpandedBoldItalic.ttf
+  # SairaExpanded/fonts/ttf/SairaExpanded-ExtraBoldItalic.ttf: static/Saira-ExpandedExtraBoldItalic.ttf
+  # SairaExpanded/fonts/ttf/SairaExpanded-BlackItalic.ttf: static/Saira-ExpandedBlackItalic.ttf

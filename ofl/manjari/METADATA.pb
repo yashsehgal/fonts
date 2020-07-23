@@ -31,5 +31,10 @@ fonts {
   copyright: "Copyright 2018 The Manjari Project Authors (https://gitlab.com/smc/fonts/manjari)"
 }
 subsets: "latin"
+subsets: "latin-ext"
 subsets: "malayalam"
 subsets: "menu"
+source {
+  repository_url: "https://github.com/smc/manjari.git"
+  commit: "7cdabff487afbeb7471f4554f79e006046421850"
+}

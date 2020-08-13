@@ -1,0 +1,23 @@
+# DOTG based on https://github.com/rosettatype/Handjet
+tag: "DOTG"
+display_name: "Dot Grid"
+min_value: 1
+max_value: 3
+default_value: 1
+precision: 2
+fallback {
+  name: "One Dot"
+  value: 1
+}
+fallback {
+  name: "2x2 Dots"
+  value: 2
+}
+fallback {
+  name: "3x3 Dots"
+  value: 3
+}
+description:
+  "Controls the number of dots per pixel, in pixel fonts."
+  " Each integer value along the axis is the number of rows"
+  " and columns within each pixel."

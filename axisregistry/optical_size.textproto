@@ -5,7 +5,7 @@ tag: "opsz"
 display_name: "Optical size"
 min_value: 6
 max_value: 144
-default_value: 14
+default_value: 14 # but varies per family
 precision: -1
 fallback {
   name: "6pt"
